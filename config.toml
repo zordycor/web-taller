@@ -3,6 +3,7 @@ languageCode = "es-es"
 title = "Taller de relojería"
 theme = "infinity"
 removePathAccents = true
+publishDir="docs"
 [params]
 
 # HTML before the closing </head>
