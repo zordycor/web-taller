@@ -1,0 +1,44 @@
+{{ if .Site.Params.contact.enable }}
+    {{"<!-- Contact Section -->" | safeHTML}}
+    <section id="{{ "contacto" | urlize }}" class="section contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-12">
+                    <div class="block">
+                        <div class="heading wow fadeInUp">
+                            {{ with .Site.Params.contact.title }}
+                            <h2>{{ . }}</h2>
+                            {{ end }}
+                            {{ with .Site.Params.contact.subtitle }}
+                                <p>{{ . }}</p>
+                            {{ end }}
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-12 col-md-6 offset-md-3">
+                    <div class="form-group">
+                        <form action="mailto:zordycorak@gmail.com" method="POST">
+                            <div class="input-field">
+                                <input type="text" class="form-control" placeholder="Nombre" name="name">
+                            </div>
+                            <div class="input-field">
+                                <input type="email" class="form-control" placeholder="Correo electrónico" name="email">
+                            </div>
+                            <div class="input-field">
+                                <textarea class="form-control" placeholder="Petición" rows="3" name="message"></textarea>
+                            </div>
+                            <button class="btn btn-send" type="submit">Enviar</button>
+                        </form>
+
+                        <div id="success">
+                            <p>Gracias. Nos pondremos en contacto contigo.</p>
+                        </div>
+                        <div id="error">
+                            <p>Ha ocurrido un error, vuelve a intentarlo.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+{{ end }}

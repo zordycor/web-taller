@@ -1,0 +1,135 @@
+baseURL = "https://www.example.com"
+languageCode = "es-es"
+title = "Taller de relojería"
+theme = "infinity"
+removePathAccents = true
+[params]
+
+# HTML before the closing </head>
+customHead = ""
+
+# Navigation
+[params.navigation]
+logo = "images/logopeq.png"
+conocenos = "Conócenos"
+servicios = "Servicios"
+contacto = "Contacto"
+
+# Hero Area
+[params.hero]
+enable            = true
+bg                = "images/watchmaker.jpeg"
+title             = "PACO RODRIGO TALLER DE RELOJERÍA"
+subtitle          = "Taller con más de 40 años de experiencia arreglando y cuidando tus relojes"
+
+# counter
+disableCountdown  = true
+countdownYear = "2020"
+countdownMonth = "12"
+countdownDay  = "31"
+
+# About Section
+[params.about]
+enable      = true
+heading     = "¿Quienes somos?"
+description = "Somos un taller de relojería especializado en relojes antiguos."
+
+[[params.about.sliderItem]]
+image   = "images/pendulo2.jpg"
+[[params.about.sliderItem]]
+image   = "images/casio2.jpg"
+[[params.about.sliderItem]]
+image   = "images/relojpie.jpg"
+[[params.about.sliderItem]]
+image   = "images/despertador2.jpg"
+
+
+# Service Section
+[params.service]
+enable      = true
+title       = "Cuida tus recuerdos más preciados"
+subtitle    = "No dejes que se deterioren con el tiempo"
+[[params.service.serviceItem]]
+# give icon(themefisher icon font), title, description
+# more about themefisher icon font visit https://github.com/themefisher/themefisher-font
+# use delay for reveal items one by one
+icon    = "tf-ion-android-watch"
+title   = "Cualquier reloj"
+description = "Arreglamos todo tipo de relojes"
+delay   = "0s"
+
+[[params.service.serviceItem]]
+# give icon(themefisher icon font), title, description
+# more about themefisher icon font visit https://github.com/themefisher/themefisher-font
+# use delay for reveal items one by one
+icon    = "tf-ion-android-checkmark-circle"
+title   = "Pruebas"
+description = "Se prueba todo antes de entregarlo al cliente"
+delay   = "0.2s"
+
+[[params.service.serviceItem]]
+# give icon(themefisher icon font), title, description
+# more about themefisher icon font visit https://github.com/themefisher/themefisher-font
+# use delay for reveal items one by one
+icon    = "tf-ion-android-contact"
+title   = "Comunicación directa"
+description = "El cliente habla directamente con el responsable de taller"
+delay   = "0.4s"
+
+[[params.service.serviceItem]]
+# give icon(themefisher icon font), title, description
+# more about themefisher icon font visit https://github.com/themefisher/themefisher-font
+# use delay for reveal items one by one
+icon    = "tf-ion-android-textsms"
+title   = "Avisamos por mensaje al cliente"
+description = "Lorem ipsum dolor sit amet, con-sectetur adipisicing elit, sed do eiusmod tempor incididunt ut"
+delay   = "0.6s"
+
+[[params.service.serviceItem]]
+# give icon(themefisher icon font), title, description
+# more about themefisher icon font visit https://github.com/themefisher/themefisher-font
+# use delay for reveal items one by one
+icon    = "tf-ion-eye"
+title   = "Trabajo transparente"
+description = "Taller abierto a la observación del cliente"
+delay   = "0.8s"
+
+[[params.service.serviceItem]]
+# give icon(themefisher icon font), title, description
+# more about themefisher icon font visit https://github.com/themefisher/themefisher-font
+# use delay for reveal items one by one
+icon    = "tf-ion-gear-b"
+title   = "Gran profesionalidad"
+description = "Más de 40 años de experiencia nos avalan"
+delay   = "1s"
+
+[[params.service.serviceItem]]
+# give icon(themefisher icon font), title, description
+# more about themefisher icon font visit https://github.com/themefisher/themefisher-font
+# use delay for reveal items one by one
+icon    = "tf-ion-ios-home"
+title   = "Envío a domicilio"
+description = "Te lo mandamos a casa sin coste adicional"
+delay   = "1.2s"
+
+[[params.service.serviceItem]]
+# give icon(themefisher icon font), title, description
+# more about themefisher icon font visit https://github.com/themefisher/themefisher-font
+# use delay for reveal items one by one
+icon    = "tf-ion-ios-infinite"
+title   = "Recuerdos para siempre"
+description = "Los regalos de tus seres queridos cuidados para que duren mucho"
+delay   = "1.5s"
+
+
+# Call to Action Section
+[params.cta]
+enable      = true
+bg          = "images/desmontado.jpg"
+title       = "Recibe ofertas y promociones de nuestro taller"
+subtitle    = "Introduce tu correo electrónico para poder recibir comunicaciones sobre nuevas ofertas"
+
+[params.contact]
+enable      = true
+title       = "Ponte en contacto con nosotros"
+subtitle    = "PLAZA JAIME I, 14. 46910 SEDAVÍ (VALENCIA). TLF: 96 376 38 91"
